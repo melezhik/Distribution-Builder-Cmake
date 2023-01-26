@@ -1,5 +1,6 @@
 image:
   - melezhik/sparrow:alpine
+  - melezhik/sparrow:archlinux
 tasks:
   -
     name: test
