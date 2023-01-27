@@ -3,8 +3,11 @@
   "authors": [
     "Rawley Fowler"
   ],
-  "build-depends": [  ],
+  "build-depends": [
+  ],
   "depends": [
+	  "cmake:from<bin>",
+	  "make:from<bin>"
   ],
   "description": "A zef builder to aid in binding CMake projects to Raku",
   "license": "Artistic-2.0",
@@ -13,9 +16,12 @@
   "provides": {
     "Distribution::Builder::Cmake": "lib/Distribution/Builder/Cmake.rakumod"
   },
-  "resources": [ ],
-  "source-url": "",
-  "tags": [ ],
-  "test-depends": [ ],
-  "version": "0.0.1"
+  "resources": [
+  ],
+  "source-url": "https://github.com/rawleyfowler/Distribution-Builder-Cmake.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.4"
 }

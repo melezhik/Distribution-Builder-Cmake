@@ -2,6 +2,8 @@ Distribution::Builder::Cmake
 ====
 A dead simple way to build a CMake project for FFI with Raku.
 
+[![Actions Status](https://github.com/rawleyfowler/Distribution-Builder-Cmake/actions/workflows/test.yml/badge.svg)](https://github.com/rawleyfowler/Distribution-Builder-Cmake/actions)
+
 Synopsis
 ========
 
@@ -13,7 +15,7 @@ zef install Distribution::Builder::Cmake
 
 Usage
 =========
-Assuming your Raku project has keeps its CMake project in a folder called `my-cmake-project`, and your exported lib is `my-lib`. 
+Assuming your Raku project keeps its CMake project in a folder called `my-cmake-project`, and your exported lib is `my-lib`. 
 Note, the final `.so` file will be `libmy-lib.so`.
 In your `META6.json` you'll add the following:
 ```
@@ -57,3 +59,4 @@ COPYRIGHT AND LICENSE
 Copyright 2023 
 
 This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
